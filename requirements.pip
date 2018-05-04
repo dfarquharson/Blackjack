@@ -1,0 +1,6 @@
+pytest-cov
+hypothesis
+ipython
+toolz
+attrs
+pep8
