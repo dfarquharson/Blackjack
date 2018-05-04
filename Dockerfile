@@ -1,5 +1,5 @@
-FROM python:3.6.5-alpine3.6
-COPY *.py .
+FROM python:3.6.5-slim
 COPY requirements.pip .
 RUN pip install -r requirements.pip
+COPY *.py ./
 CMD python game.py

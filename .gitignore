@@ -1,2 +1,5 @@
 *.pyc
 .*.sw*
+env/
+.pytest_cache
+.idea
