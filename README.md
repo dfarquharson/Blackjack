@@ -14,7 +14,7 @@ I've been surprised to find the most common winning hit threshold is quite high,
 18 being the most prevalent (which is to say, keep hitting until your hand total is 18 or higher)
 
 ## How to make this do stuff
-All the interesting things you might want to do to this project are described in make targets in the [makefile](https://github.com/dfarquharson/blackjack/blob/master/Makefile).
+All the interesting things you might want to do to this project are described in make targets in the [Makefile](https://github.com/dfarquharson/blackjack/blob/master/Makefile).
 Particularly of note are:
 - `make run`
 - `make test`
@@ -27,5 +27,6 @@ Navigate to ./htmlcov/index.html in your browser to see that report.
 ## Future Enhancements
 - [x] Expand the space of the simulation by increasing total number of games played
 - [ ] Intelligently and optimally handle "soft" hands (the presence of Aces in a hand)
+- [ ] Allow for probabilistic strategies that slightly vary when to hit/stay (i.e. stay on 15 25% of the time)
 - [ ] Explore use of hypothesis to do generative testing
 - [ ] Use [bokeh](https://bokeh.pydata.org/en/latest/) and/or [matplotlib](https://matplotlib.org/) to make pretty pictures out of the results.

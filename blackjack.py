@@ -77,6 +77,7 @@ class Hand:
 
     def get_value(self) -> int:
         return sum([c.value.value for c in self.cards])
+        # TODO: optimally handle "Soft" hands (where Aces are present)
         # if self.get_strength() == Strength.HARD:
         #     return sum([c.value.value for c in self.cards])
         # else:

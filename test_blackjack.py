@@ -61,6 +61,7 @@ class HandTest(unittest.TestCase):
     def test_soft_hand_value(self):
         self.assertEqual(17, Hand([Card(Value.ACE),
                                    Card(Value.SIX)]).get_value())
+        # TODO: more soft-hand handling test cases
         # self.assertEqual(18, Hand([Card(Value.ACE),
         #                            Card(Value.SIX),
         #                            Card(Value.ACE)]).get_value())
