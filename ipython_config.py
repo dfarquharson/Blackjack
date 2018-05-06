@@ -2,8 +2,8 @@ get_config().InteractiveShellApp.exec_lines = \
     [
         '%load_ext autoreload',
         '%autoreload 2',
-        'import toolz.curried as T',
-        'import game',
-        'import model'
+        'from pprint import pprint',
+        'import toolz.curried as tc',
+        'import blackjack as b'
     ]
 print("---------->>>>>>>>>> CUSTOM CONFIG LOADED <<<<<<<<<<----------")

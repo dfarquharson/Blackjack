@@ -1,5 +1,8 @@
 *.pyc
 .*.sw*
 env/
-.pytest_cache
-.idea
+.pytest_cache/
+.idea/
+.coverage
+htmlcov/
+game-*.log

@@ -1,2 +1,4 @@
 [run]
-omit = env/*
+omit =
+    env/*
+    ipython_config.py
