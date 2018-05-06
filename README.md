@@ -28,5 +28,5 @@ Navigate to ./htmlcov/index.html in your browser to see that report.
 - [x] Expand the space of the simulation by increasing total number of games played
 - [ ] Intelligently and optimally handle "soft" hands (the presence of Aces in a hand)
 - [ ] Allow for probabilistic strategies that slightly vary when to hit/stay (i.e. stay on 15 25% of the time)
-- [ ] Explore use of hypothesis to do generative testing
+- [ ] Explore use of [hypothesis](https://hypothesis.readthedocs.io/en/latest/) to do generative testing
 - [ ] Use [bokeh](https://bokeh.pydata.org/en/latest/) and/or [matplotlib](https://matplotlib.org/) to make pretty pictures out of the results.
