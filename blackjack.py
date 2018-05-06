@@ -198,7 +198,8 @@ class Game:
 
     def finish_round(self) -> None:
         for player in self.players + [self.dealer]:
-            player.handle_result(self.dealer.hand.get_value())
+            if player.is_active():
+                player.handle_result(self.dealer.hand.get_value())
 
     def play_round(self) -> None:
         print('Game Number: ' + str(self.game_num))

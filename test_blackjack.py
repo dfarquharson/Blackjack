@@ -210,4 +210,4 @@ class GameTest(unittest.TestCase):
         Game.player_play(Player())
 
     def test_play(self):
-        Game([Player(), Player()]).play()
+        Game([Player(hit_threshold=0), Player(hit_threshold=15)]).play()
