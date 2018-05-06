@@ -34,8 +34,8 @@ coverage-html:
 		--cov-branch \
 		--cov .
 
-logs-list:
+log-list:
 	ls -laht | grep .log
 
-logs-nuke:
+log-nuke:
 	rm game-*.log
